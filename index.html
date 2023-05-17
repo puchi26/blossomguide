@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Guide</title>
+    <link rel="stylesheet" href="bg.css" />
+    <link rel="shortcut icon" type="image/jpg" href="logobg.png" />
+
+</head>
+
+<body>
+    <h3>
+        <nav>
+            <a href="index.html" style="color: rgb(255, 247, 248);">Home </a>
+            <a href="gi.html"> General Information</a>
+            <a href="tour.html"> Tourist Places</a>
+            <a href="ga.html"> Gastronomy</a>
+            <a href="sug.html"> Suggestions</a>
+        </nav>
+    </h3> <span id="demo" style="margin-top:-10px;float: right;"></span>
+    <br>
+    <center> <img src="bannerbg.png" alt="" id="m"> <br>
+
+        <button class="button1" onclick="img1()"></button>
+        <button class="button1" onclick="img2()"></button>
+        <button class="button1" onclick="img3()"></button>
+
+
+        <h4 style="margin-bottom: 30px;">This platform is specifically designed for people who have a passion for
+            traveling and an interest in
+            learning more about the different cultures of the world. Whether you're a seasoned traveler or someone who
+            is planning their first trip, this site will provide you with valuable information and resources to make
+            your journey unforgettable.
+            If you're planning a trip to Japan, our travel guide will provide you with all the information you need to
+            make the most of your visit. We'll help you discover the best places to visit, from the bustling city
+            streets of Tokyo to the serene temples of Kyoto. Our guide also includes practical information such as
+            transportation options, language tips, and cultural etiquette to help you navigate Japan with ease.
+            In addition to our travel guide, we also offer a wealth of knowledge about Japan's rich history, traditions,
+            and gastronomy. Our platform provides a comprehensive overview of Japan's unique and fascinating culture,
+            making it the perfect resource for anyone who wants to deepen their understanding of this amazing country.
+        </h4>
+
+        <footer>
+
+            <b>"Under the cherry blossom tree, the world takes on a magical hue of pink and white."</b>
+
+
+            <img src="footer.png" alt="lool" class="footer1">
+            <!--Funciones para cambio de imagenes-->
+        </footer>
+    </center>
+    <script>
+        function img1() {
+            console.log('hola1')
+            document.getElementById("m").src = "bannerbg.png";
+        }
+        function img2() {
+            document.getElementById("m").src = "2.png";
+        }
+        function img3() {
+            document.getElementById("m").src = "3.png";
+        }
+
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+</body>
+
+</html>
